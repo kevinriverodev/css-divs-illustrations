@@ -11,17 +11,31 @@
 
 .title {
   font-weight: 800;
-  font-size: 4.5rem;
-  line-height: 60px;
-  
+  font-size: 3.25rem;
+  line-height: 50px;
 }
 
 .title span {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   color: #e6890f
 }
 
 .titleContainer p {
-  font-size: 1.25rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 4.5rem;
+    line-height: 60px;
+  }
+  
+  .title span {
+    font-size: 2.5rem;
+  }
+  
+  .titleContainer p {
+    font-size: 1.25rem;
+  }
 }

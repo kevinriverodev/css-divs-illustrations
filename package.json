@@ -2,13 +2,18 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://kevinriverodev.github.io/css-divs-illustrations/",
+  "description": "A collection of CSS illustrations made with divs.",
+  "author": "Kevin Rivero",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
