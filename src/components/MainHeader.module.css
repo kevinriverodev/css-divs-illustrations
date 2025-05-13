@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #111b2e;
+  padding: 20px;
+}
+
+.titleContainer {
+  text-align: center;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 4.5rem;
+  line-height: 60px;
+  
+}
+
+.title span {
+  font-size: 2.5rem;
+  color: #e6890f
+}
+
+.titleContainer p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}

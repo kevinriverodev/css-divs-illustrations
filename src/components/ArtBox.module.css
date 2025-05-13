@@ -1,0 +1,22 @@
+.artBox {
+  width: 100%;
+  height: auto;
+}
+
+.artDescription {
+  background-color: #0c1320;
+  padding: 5px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.artContainer {
+  height: 500px;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* For desktop */
+  .artBox {
+    width: 50%;
+  }
+}
